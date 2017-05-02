@@ -1,0 +1,316 @@
+body {
+  font-family: "宋体", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clear:after,
+.box:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  color: #e60012;
+  font-weight: 600;
+  background: url(../../../ui/datang/images/travker/title.jpg) 0 79px repeat-x;
+  font-family: "黑体", sans-serif;
+  font-size: 24px;
+}
+.title p {
+  display: inline-block;
+  font-size: 24px;
+  border-bottom: 4px solid #e60012;
+  padding-bottom: 12px;
+}
+.title a {
+  float: right;
+  color: #e60012;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: "宋体", sans-serif;
+}
+.arrow {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  cursor: pointer;
+  color: #FFF;
+  top: 280px;
+  z-index: 2;
+}
+.arrow-right {
+  background: url(../../../ui/datang/images/travker/next_right01.png) no-repeat center center;
+  right: 106px;
+}
+.arrow-right:hover {
+  background: url(../../../ui/datang/images/travker/next_right02.png) no-repeat center center;
+}
+.arrow-left {
+  background: url(../../../ui/datang/images/travker/next_left01.png) no-repeat center center;
+  left: 106px;
+}
+.arrow-left:hover {
+  background: url(../../../ui/datang/images/travker/next_left02.png) no-repeat center center;
+}
+.nav-title {
+  width: 520px;
+  padding: 0 340px;
+  background: url(../../../ui/datang/images/travker/line.jpg) repeat-x;
+  margin-bottom: 40px;
+}
+.nav-title li {
+  float: left;
+  color: #7b7b7c;
+  width: 140px;
+  padding: 0 60px;
+  text-align: center;
+  font-size: 24px;
+  overflow: hidden;
+  height: 60px;
+  line-height: 60px;
+}
+.nav-title .active-text {
+  border-bottom: 1px solid #e60012;
+  line-height: 60px;
+  color: #e60012;
+}
+.return a:hover div {
+  background-color: #f37a09;
+}
+.header {
+  border-bottom: 1px solid #969695;
+  font-family: "黑体", sans-serif;
+}
+.header .box {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.header a {
+  color: #000000;
+  line-height: 36px;
+  font-size: 18px;
+}
+.header .active-text {
+  color: #e60012;
+}
+.header .logo {
+  float: left;
+}
+.header .logo span {
+  display: inline-block;
+}
+.header .logo .logo-left {
+  background: url(../../../ui/datang/images/travker/logo.png) no-repeat;
+  width: 75px;
+  height: 25px;
+  border-right: 1px solid #969696;
+  padding-left: 10px;
+  padding-bottom: 4px;
+  margin-top: 5px;
+}
+.header .logo .logo-right {
+  background: url(../../../ui/datang/images/travker/logo2.png) no-repeat;
+  width: 103px;
+  height: 31px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header .header-nav {
+  float: left;
+  padding-left: 20px;
+}
+.header .header-nav li {
+  float: left;
+  width: 90px;
+  line-height: 36px;
+  text-align: center;
+}
+.header .enter {
+  float: right;
+}
+.header .enter a {
+  font-size: 20px;
+  color: #e60012;
+}
+.header .enter .enter-left {
+  display: block;
+  float: left;
+  background: url(../../../ui/datang/images/travker/head_img.png) no-repeat left center;
+  height: 36px;
+  width: 30px;
+  vertical-align: baseline;
+}
+.return {
+  position: fixed;
+  right: 0;
+  bottom: 67px;
+  z-index: 100;
+}
+.return div {
+  width: 62px;
+  height: 62px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 35px;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #b1b1b1;
+  background-repeat: no-repeat;
+  line-height: 20px;
+}
+.return .return-btn {
+  background-size: 35%;
+  background-image: url(../../../ui/datang/images/travker/top.png);
+  background-position: center 10px;
+}
+.return .return-369 {
+  background-image: url(../../../ui/datang/images/travker/369logo2.png);
+  background-position: center 16px;
+  margin-bottom: 5px;
+}
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #5a5a5a;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.footer .box div {
+  float: left;
+}
+.footer .footer-link {
+  width: 540px;
+  margin-top: 10px;
+}
+.footer .footer-link li {
+  float: left;
+  width: 108px;
+}
+.footer .footer-link ul {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #696969;
+  border-top: 1px solid #696969;
+  line-height: 30px;
+}
+.footer .footer-link ul:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.footer .footer-link a {
+  color: #c7c7c7;
+}
+.footer .footer-link a:hover {
+  color: #fff600;
+}
+.footer .footer-link h3 {
+  margin-bottom: 12px;
+}
+.footer span {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 4px;
+  width: 18px;
+  height: 18px;
+}
+.footer .footer-ewm {
+  width: 160px;
+  margin-left: 30px;
+}
+.footer .footer-ewm span {
+  background: url(../../../ui/datang/images/travker/weixin.png) no-repeat;
+  margin-top: 10px;
+}
+.footer .footer-enter {
+  width: 400px;
+  float: right!important;
+}
+.footer .footer-enter a {
+  display: block;
+  width: 190px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  background: #fff;
+  color: #e40101;
+  border-radius: 30px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+.footer .footer-enter .phone {
+  background: url(../../../ui/datang/images/travker/tle.png) no-repeat;
+}
+.footer .footer-enter .add {
+  background: url(../../../ui/datang/images/travker/add.png) no-repeat;
+}
+.footer .footer-enter p {
+  margin-bottom: 20px;
+}
+.footer .footer-enter p:last-child {
+  font-size: 12px;
+  margin-left: 20px;
+}
+.project .project-content a {
+  display: block;
+}
+.project .project-content img {
+  width: 200px;
+}
+.project .project-content div {
+  width: 900px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #969695;
+}
+.project .project-content li {
+  margin-bottom: 20px;
+}
+.project .project-content li:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.project .project-content p {
+  font-size: 18px;
+  line-height: 36px;
+  color: #777774;
+  padding-bottom: 40px;
+  display: inline;
+}
+.project .project-content h3 {
+  font-size: 24px;
+  color: #000000;
+  line-height: 40px;
+  font-weight: 100;
+  padding-bottom: 20px;
+  font-family: "黑体", sans-serif;
+}

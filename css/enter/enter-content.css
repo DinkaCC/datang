@@ -1,0 +1,189 @@
+body {
+  font-family: "宋体", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clear:after,
+.box:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  color: #e60012;
+  font-weight: 600;
+  background: url(../../../ui/datang/images/travker/title.jpg) 0 79px repeat-x;
+  font-family: "黑体", sans-serif;
+  font-size: 24px;
+}
+.title p {
+  display: inline-block;
+  font-size: 24px;
+  border-bottom: 4px solid #e60012;
+  padding-bottom: 12px;
+}
+.title a {
+  float: right;
+  color: #e60012;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: "宋体", sans-serif;
+}
+.arrow {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  cursor: pointer;
+  color: #FFF;
+  top: 280px;
+  z-index: 2;
+}
+.arrow-right {
+  background: url(../../../ui/datang/images/travker/next_right01.png) no-repeat center center;
+  right: 106px;
+}
+.arrow-right:hover {
+  background: url(../../../ui/datang/images/travker/next_right02.png) no-repeat center center;
+}
+.arrow-left {
+  background: url(../../../ui/datang/images/travker/next_left01.png) no-repeat center center;
+  left: 106px;
+}
+.arrow-left:hover {
+  background: url(../../../ui/datang/images/travker/next_left02.png) no-repeat center center;
+}
+.nav-title {
+  width: 520px;
+  padding: 0 340px;
+  background: url(../../../ui/datang/images/travker/line.jpg) repeat-x;
+  margin-bottom: 40px;
+}
+.nav-title li {
+  float: left;
+  color: #7b7b7c;
+  width: 140px;
+  padding: 0 60px;
+  text-align: center;
+  font-size: 24px;
+  overflow: hidden;
+  height: 60px;
+  line-height: 60px;
+}
+.nav-title .active-text {
+  border-bottom: 1px solid #e60012;
+  line-height: 60px;
+  color: #e60012;
+}
+.return a:hover div {
+  background-color: #f37a09;
+}
+.enter-box {
+  width: 900px;
+  margin: 0 auto;
+}
+.enter-box p {
+  float: left;
+  width: 180px;
+  padding-right: 20px;
+  text-align: right;
+  line-height: 40px;
+  color: #555555;
+}
+.enter-box h3 {
+  font-size: 30px;
+  color: #000000;
+  line-height: 60px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 40px;
+}
+.enter-box h4 {
+  width: 60%;
+  font-size: 14px;
+  color: #ff0000;
+  line-height: 30px;
+  font-weight: 100;
+  text-align: right;
+  padding: 0 20%;
+}
+.enter-box li {
+  padding: 15px 0;
+}
+.enter-box li:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.enter-box input,
+.enter-box select {
+  float: left;
+  box-sizing: border-box;
+  width: 520px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #666666;
+  height: 38px;
+  padding: 0px 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b5b5b5;
+}
+.enter-box span {
+  line-height: 46px;
+  font-size: 16px;
+  color: #ff0000;
+  margin-left: 20px;
+}
+.enter-box .remark {
+  width: 500px;
+  padding: 0 10px;
+  line-height: 40px;
+  font-size: 16px;
+  border: 1px solid #b5b5b5;
+  height: 160px;
+  resize: none;
+  overflow: hidden;
+}
+.enter-box .submit-btn {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e60012;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #FFF;
+  letter-spacing: 3px;
+  font-family: "黑体", sans-serif;
+  margin-bottom: 40px;
+}
+.enter-box .error-box {
+  float: left;
+  color: #ff0000;
+}

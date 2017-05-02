@@ -1,0 +1,175 @@
+body {
+  font-family: "宋体", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clear:after,
+.box:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  color: #e60012;
+  font-weight: 600;
+  background: url(../../../ui/datang/images/travker/title.jpg) 0 79px repeat-x;
+  font-family: "黑体", sans-serif;
+  font-size: 24px;
+}
+.title p {
+  display: inline-block;
+  font-size: 24px;
+  border-bottom: 4px solid #e60012;
+  padding-bottom: 12px;
+}
+.title a {
+  float: right;
+  color: #e60012;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: "宋体", sans-serif;
+}
+.arrow {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  cursor: pointer;
+  color: #FFF;
+  top: 280px;
+  z-index: 2;
+}
+.arrow-right {
+  background: url(../../../ui/datang/images/travker/next_right01.png) no-repeat center center;
+  right: 106px;
+}
+.arrow-right:hover {
+  background: url(../../../ui/datang/images/travker/next_right02.png) no-repeat center center;
+}
+.arrow-left {
+  background: url(../../../ui/datang/images/travker/next_left01.png) no-repeat center center;
+  left: 106px;
+}
+.arrow-left:hover {
+  background: url(../../../ui/datang/images/travker/next_left02.png) no-repeat center center;
+}
+.nav-title {
+  width: 520px;
+  padding: 0 340px;
+  background: url(../../../ui/datang/images/travker/line.jpg) repeat-x;
+  margin-bottom: 40px;
+}
+.nav-title li {
+  float: left;
+  color: #7b7b7c;
+  width: 140px;
+  padding: 0 60px;
+  text-align: center;
+  font-size: 24px;
+  overflow: hidden;
+  height: 60px;
+  line-height: 60px;
+}
+.nav-title .active-text {
+  border-bottom: 1px solid #e60012;
+  line-height: 60px;
+  color: #e60012;
+}
+.return a:hover div {
+  background-color: #f37a09;
+}
+.news-box .news-contain ul {
+  background: url(../../../ui/datang/images/travker/heng_line.jpg) repeat-y;
+}
+.news-box .news-contain li {
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+.news-box .news-contain li:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.news-box .news-title {
+  margin-top: 40px;
+}
+.news-box .news-time {
+  width: 125px;
+  background: url(../../../ui/datang/images/travker/red.png) no-repeat right center;
+  padding-right: 10px;
+  line-height: 30px;
+  color: #111111;
+}
+.news-box img {
+  width: 160px;
+  height: 120px;
+  float: left;
+}
+.news-box .f-right {
+  width: 815px;
+  padding-left: 25px;
+}
+.news-box h1 {
+  width: 64px;
+  height: 64px;
+  background: #e60012;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  line-height: 64px;
+  margin-left: 100px;
+}
+.news-box .news-text {
+  width: 1000px;
+  margin-left: 65px;
+}
+.news-box .news-text h3 {
+  font-weight: 100;
+  line-height: 36px;
+  font-size: 18px;
+}
+.news-box .news-text h3 a {
+  font-family: "黑体";
+  color: #000000;
+}
+.news-box .news-text h3:hover a {
+  color: #e60012;
+  text-decoration: underline;
+}
+.news-box .news-text p {
+  font-size: 14px;
+  color: #8f8d8d;
+  line-height: 30px;
+}
+.news-box .news-text p a {
+  color: #e60012;
+}
+.news-box .news-text p a:hover {
+  text-decoration: underline;
+}

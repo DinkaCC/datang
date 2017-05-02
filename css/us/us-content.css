@@ -1,0 +1,196 @@
+body {
+  font-family: "宋体", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clear:after,
+.box:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  color: #e60012;
+  font-weight: 600;
+  background: url(../../../ui/datang/images/travker/title.jpg) 0 79px repeat-x;
+  font-family: "黑体", sans-serif;
+  font-size: 24px;
+}
+.title p {
+  display: inline-block;
+  font-size: 24px;
+  border-bottom: 4px solid #e60012;
+  padding-bottom: 12px;
+}
+.title a {
+  float: right;
+  color: #e60012;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: "宋体", sans-serif;
+}
+.arrow {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  cursor: pointer;
+  color: #FFF;
+  top: 280px;
+  z-index: 2;
+}
+.arrow-right {
+  background: url(../../../ui/datang/images/travker/next_right01.png) no-repeat center center;
+  right: 106px;
+}
+.arrow-right:hover {
+  background: url(../../../ui/datang/images/travker/next_right02.png) no-repeat center center;
+}
+.arrow-left {
+  background: url(../../../ui/datang/images/travker/next_left01.png) no-repeat center center;
+  left: 106px;
+}
+.arrow-left:hover {
+  background: url(../../../ui/datang/images/travker/next_left02.png) no-repeat center center;
+}
+.nav-title {
+  width: 520px;
+  padding: 0 340px;
+  background: url(../../../ui/datang/images/travker/line.jpg) repeat-x;
+  margin-bottom: 40px;
+}
+.nav-title li {
+  float: left;
+  color: #7b7b7c;
+  width: 140px;
+  padding: 0 60px;
+  text-align: center;
+  font-size: 24px;
+  overflow: hidden;
+  height: 60px;
+  line-height: 60px;
+}
+.nav-title .active-text {
+  border-bottom: 1px solid #e60012;
+  line-height: 60px;
+  color: #e60012;
+}
+.return a:hover div {
+  background-color: #f37a09;
+}
+body {
+  color: #666666;
+}
+.us-content .swiper-container {
+  width: 100%;
+}
+.us-content .swiper-container .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #f37a09;
+  background: #f37a09;
+  opacity: 1;
+  margin-bottom: 30px !important;
+}
+.us-content .swiper-container .swiper-pagination-bullet-active {
+  background: transparent;
+}
+.us-content .us-box .ceo img {
+  float: left;
+}
+.us-content .us-box .ceo div {
+  line-height: 40px;
+  color: #333333;
+  width: 800px;
+  margin-left: 80px;
+}
+.us-content .us-box .ceo div h2 {
+  margin-bottom: 20px;
+}
+.us-content .us-box .ceo p {
+  text-indent: 2em;
+}
+.us-content .us-box .boss-text {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+.us-content .us-box .boss-text h3 {
+  font-weight: 100;
+  font-size: 22px;
+}
+.us-content .us-box .boss-text span {
+  color: #F00;
+  font-family: "黑体", sans-serif;
+}
+.friend {
+  position: relative;
+  background: #eeeeee;
+  height: 400px;
+  padding: 20px 0;
+}
+.friend .logobox_w {
+  height: 250px;
+}
+.friend .logobox_w:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.friend .logobox_array {
+  float: left;
+}
+.friend .logobox_array img {
+  margin-bottom: 10px;
+}
+.friend > div {
+  overflow: hidden;
+}
+.friend .arrow-right {
+  background: url(../../../ui/datang/images/travker/next_right.png) no-repeat center center;
+  right: 106px;
+}
+.friend .arrow-left {
+  background: url(../../../ui/datang/images/travker/next_left.png) no-repeat center center;
+  left: 106px;
+}
+.content-us .f-left {
+  width: 650px;
+  padding: 0 120px 0 15px;
+  line-height: 60px;
+  font-size: 18px;
+  color: #333333;
+}
+.content-us .f-right {
+  width: 400px;
+  padding-right: 15px;
+  height: 360px;
+  overflow: hidden;
+}

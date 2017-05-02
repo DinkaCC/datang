@@ -1,0 +1,26 @@
+.talent-box .title {
+  padding-top: 28px;
+  background-position: 0 78px;
+}
+.talent-box .title p {
+  font-size: 34px;
+}
+.talent-box .talent-img {
+  text-align: center;
+}
+.talent-box .talent-content p {
+  text-indent: 2em;
+}
+.talent-box p {
+  line-height: 38px;
+}
+.talent-box span {
+  line-height: 28.5px;
+}
+.talent-box .talent-img-other {
+  text-align: center;
+}
+.talent-box .talent-img-other img {
+  width: 900px;
+  margin-bottom: 20px;
+}

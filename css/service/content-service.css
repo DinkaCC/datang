@@ -1,0 +1,169 @@
+body {
+  font-family: "宋体", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clear:after,
+.box:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  color: #e60012;
+  font-weight: 600;
+  background: url(../../../ui/datang/images/travker/title.jpg) 0 79px repeat-x;
+  font-family: "黑体", sans-serif;
+  font-size: 24px;
+}
+.title p {
+  display: inline-block;
+  font-size: 24px;
+  border-bottom: 4px solid #e60012;
+  padding-bottom: 12px;
+}
+.title a {
+  float: right;
+  color: #e60012;
+  line-height: 40px;
+}
+.arrow {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  cursor: pointer;
+  color: #FFF;
+  top: 280px;
+  z-index: 2;
+}
+.arrow-right {
+  background: url(../../../ui/datang/images/travker/next_right01.png) no-repeat center center;
+  right: 106px;
+}
+.arrow-right:hover {
+  background: url(../../../ui/datang/images/travker/next_right02.png) no-repeat center center;
+}
+.arrow-left {
+  background: url(../../../ui/datang/images/travker/next_left01.png) no-repeat center center;
+  left: 106px;
+}
+.arrow-left:hover {
+  background: url(../../../ui/datang/images/travker/next_left02.png) no-repeat center center;
+}
+.nav-title {
+  width: 520px;
+  padding: 0 340px;
+  background: url(../../../ui/datang/images/travker/line.jpg) repeat-x;
+  margin-bottom: 40px;
+}
+.nav-title li {
+  float: left;
+  color: #7b7b7c;
+  width: 140px;
+  padding: 0 60px;
+  text-align: center;
+  font-size: 24px;
+  overflow: hidden;
+  height: 60px;
+  line-height: 60px;
+}
+.nav-title .active-text {
+  border-bottom: 1px solid #e60012;
+  line-height: 60px;
+  color: #e60012;
+}
+.service-logo img {
+  width: 100%;
+}
+.content-service .box {
+  margin-top: 40px;
+}
+.content-service .box > div {
+  position: relative;
+  margin-bottom: 20px;
+  display: inline-block;
+  overflow: hidden;
+}
+.content-service .box > div a {
+  display: inline-block;
+  width: 380px;
+  height: 345px;
+}
+.content-service .box > div a p {
+  position: absolute;
+  bottom: 0;
+  background: #eeeeee;
+  width: 380px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 60px;
+  color: #333;
+  text-decoration: none;
+  font-family: "黑体", sans-serif;
+}
+.content-service .text {
+  width: 380px;
+  height: 345px;
+  box-sizing: border-box;
+  padding: 20px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  background: #000\9;
+  filter:alpha(opacity=70);
+  top: 0;
+  left: -380px;
+  color: #fff;
+}
+.content-service .text p {
+  font-family: "宋体", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.content-service .text h3 {
+  font-family: "宋体", sans-serif;
+  font-size: 22px;
+}
+.content-service .text .button {
+  width: 160px;
+  background: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: -80px;
+  border-radius: 25px;
+  font-family: "黑体", sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.content-service .text .button a {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #ff0000;
+  text-align: center;
+}

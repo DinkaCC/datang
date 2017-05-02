@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: "黑体", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.clear:after,
+.box:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.box {
+  width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  padding-top: 40px;
+  margin-bottom: 40px;
+  color: #e60012;
+  font-weight: 600;
+  background: url(../../../ui/datang/images/travker/title.jpg) 0px 83px repeat-x;
+}
+.title p {
+  display: inline-block;
+  font-size: 24px;
+  border-bottom: 4px solid #e60012;
+  padding-bottom: 16px;
+}
+.title a {
+  float: right;
+  color: #e60012;
+  line-height: 40px;
+}
+.swiper-button {
+  position: absolute;
+  width: 40px !important;
+  height: 80px !important;
+}
+.swiper-button.swiper-button-prev {
+  background: url(../../../ui/datang/images/travker/next_left01.png) no-repeat;
+  left: 130px;
+}
+.swiper-button.swiper-button-prev:hover {
+  background: url(../../../ui/datang/images/travker/next_left02.png) no-repeat;
+}
+.swiper-button.swiper-button-next {
+  background: url(../../../ui/datang/images/travker/next_right01.png) no-repeat;
+  right: 130px;
+}
+.swiper-button.swiper-button-next:hover {
+  background: url(../../../ui/datang/images/travker/next_right02.png) no-repeat;
+}
+.service-nav {
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+.service-nav ul {
+  width: 760px;
+  margin: 0 auto;
+  height: 75px;
+}
+.service-nav ul li {
+  float: left;
+  height: 75px;
+  line-height: 75px;
+  width: 120px;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.service-nav ul li a {
+  color: #7b7b7c;
+  font-size: 24px;
+}
+.service-nav ul li.active-service {
+  border-bottom: 1px solid #e60012;
+}
+.service-nav ul li.active-service a {
+  color: #e60012;
+}

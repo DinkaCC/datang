@@ -1,0 +1,36 @@
+.f-left {
+  float: left;
+}
+.vc-box li {
+  position: relative;
+  width: 285px;
+  height: 285px;
+  margin-right: 14px;
+  margin-bottom: 20px;
+  float: left;
+}
+.vc-box li:nth-child(4n) {
+  margin-right: 0;
+}
+.vc-box li a {
+  color: #fff;
+}
+.vc-box li .vc-text {
+  position: absolute;
+  height: 100%;
+  text-align: center;
+  top: 50%;
+  margin-top: -40px;
+  padding: 0 40px;
+}
+.vc-box li .vc-text h3 {
+  font-family: "宋体", sans-serif;
+  line-height: 40px;
+  font-size: 24px;
+}
+.vc-box li .vc-text h4 {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 100;
+  font-family: "宋体", sans-serif;
+}

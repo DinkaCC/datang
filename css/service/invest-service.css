@@ -1,0 +1,19 @@
+.invest-box p,
+.invest-box span,
+.invest-box strong {
+  font-family: "宋体", sans-serif;
+  font-size: 18px;
+}
+.invest-box p {
+  line-height: 38px;
+}
+.invest-box .title {
+  padding-top: 28px;
+  background-position: 0 78px;
+}
+.invest-box .title p {
+  font-size: 34px;
+}
+.servicetwo-text p {
+  text-indent: 20pt;
+}
